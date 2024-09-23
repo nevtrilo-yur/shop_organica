@@ -1,0 +1,132 @@
+.ecoFr{
+    display: flex;
+    height: 939px;
+    background-color: #fff;
+    
+}
+
+.eco_bg-img{
+    width: 50%;
+    background-image: url('./img/Photo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.eco_bg-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .eco_info{
+        width: 100%;
+        position: absolute;
+        left: -90px;
+        padding: 78px 89px;
+        padding-right: 0px;
+        background-color: #fff;
+        border-radius: 30px;
+    }
+
+    .eco_info-name{
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+    }
+
+    .eco_info-big{
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+        width: 635px;
+    }
+}
+
+@media screen and (max-width:1430px) {
+    .eco_bg-right{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    
+        .eco_info{
+            width: 100%;
+            position: absolute;
+            left: -200px;
+            padding: 78px 89px;
+            background-color: #fff;
+            border-radius: 30px;
+        }
+    }
+}
+@media screen and (max-width:1430px) {
+    .eco_bg-right{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    
+        .eco_info{
+            width: 100%;
+            position: absolute;
+            left: -200px;
+            padding: 78px 89px;
+            background-color: #fff;
+            border-radius: 30px;
+        }
+    }
+}
+@media screen and (max-width:1113px) {
+    .eco_bg-img{
+        display: none;
+        background-image: none;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+
+    .eco_bg-right{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .eco_info{
+            position: initial;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #fff;
+            border-radius: 30px;
+            padding: 0;
+
+            .eco_info-name{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 21px;
+                h2{
+                    text-align: center;
+                }
+            }
+
+            .eco_info-big{
+                width: 80%;
+            }
+        
+           h5{
+            text-align: center;
+           }
+           p{
+            text-align: center;
+           }
+        }
+}
+}

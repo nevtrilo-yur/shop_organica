@@ -1,0 +1,120 @@
+@import '../app/scss/colors';
+
+.footer{
+    
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-top: 1px solid $grey;
+
+    .footer_main-info{
+        width: 100%;
+        display: flex;
+
+
+        .contact{
+            width: 45%;
+            padding-left: 50px;
+            padding-right: 50px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .social{
+            width: 45%;
+            padding-left: 50px;
+            padding-right: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            p{
+                text-align: center;
+            }
+
+            .footer_social{
+                padding-top: 40px;
+                display: flex;
+                gap: 15px;
+            }
+        }
+
+
+        .vert{
+            
+            border-right: 1px solid $grey;
+        }
+       
+    }
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+
+.footer_copy{
+   margin-top: 50px;
+   padding-top: 30px;
+    border-top: 1px solid $grey;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 740px) {
+
+    .footer_main-info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+
+
+        
+        h5{
+            text-align: center;
+        }
+
+        .vert{
+            height: 300px;
+          transform: rotate(90deg);
+        }
+        
+    }
+
+    
+}

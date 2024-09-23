@@ -1,0 +1,163 @@
+@mixin banner_rules{
+    width: 40%;
+    height: 367px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    
+}
+
+
+
+.banner{
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .banner_left{
+       
+
+        @include banner_rules;
+        background-image: url('./img/img1.png');
+        
+    }
+    .banner_right{
+        
+        @include banner_rules;
+        background-image: url('./img/image2.png');
+    }
+}
+
+
+@media screen and ( max-width: 1320px){
+    @mixin banner_rules{
+        width: 640px;
+        height: 367px;
+        border-radius: 30px;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        
+    }  
+    .banner{
+    
+        
+        flex-direction: column;
+
+        .banner_left{
+       
+
+            @include banner_rules;
+            background-image: url('./img/img1.png');
+            
+            
+        }
+        .banner_right{
+            
+            @include banner_rules;
+            background-image: url('./img/image2.png');
+        }
+    
+    }
+
+}
+
+
+
+@media screen and ( max-width: 760px){
+    @mixin banner_rules{
+        width: 540px;
+    
+        
+    }  
+    .banner{
+    
+        
+        flex-direction: column;
+
+        .banner_left{
+       
+
+            @include banner_rules;
+            background-image: url('./img/img1.png');
+            
+            
+        }
+        .banner_right{
+            
+            @include banner_rules;
+            background-image: url('./img/image2.png');
+        }
+    
+    }
+
+}
+@media screen and ( max-width: 640px){
+    @mixin banner_rules{
+        width: 350px;
+    
+        
+    }  
+    .banner{
+    
+        
+        flex-direction: column;
+
+        .banner_left{
+       
+
+            @include banner_rules;
+            background-image: url('./img/img1.png');
+            
+            
+        }
+        .banner_right{
+            
+            @include banner_rules;
+            background-image: url('./img/image2.png');
+        }
+    
+    }
+
+}
+@media screen and ( max-width: 450px){
+    @mixin banner_rules{
+        width: 250px;
+    
+        
+    }  
+    .banner{
+    
+        
+        flex-direction: column;
+
+        .banner_left{
+       
+
+            @include banner_rules;
+            background-image: url('./img/img1.png');
+            
+            
+        }
+        .banner_right{
+            
+            @include banner_rules;
+            background-image: url('./img/image2.png');
+        }
+    
+    }
+
+}

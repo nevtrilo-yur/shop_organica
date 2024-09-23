@@ -1,0 +1,81 @@
+@mixin font-rules{
+   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: $blue
+
+}
+@mixin rules_for_p_li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;  
+    color: $black-grey;
+}
+
+h1{
+    @include font-rules;
+    font-size: 58px;
+    line-height: 84px;
+}
+h2{
+    @include font-rules;
+    font-size: 40px;
+    line-height: 48px;
+}
+h3{
+    @include font-rules;
+    font-size: 40px;
+    line-height: 47px;
+}
+h4{
+    @include font-rules;
+    font-size: 35px;
+    line-height: 41px;
+}
+h5{
+    @include font-rules;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+h6{
+    @include font-rules;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+p{
+    @include rules_for_p_li
+}
+
+li{
+    @include rules_for_p_li; 
+    font-weight: 700;
+
+    span{
+        @include rules_for_p_li        
+    }
+}
+
+
+a{
+    @include font-rules;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+.text_green{
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 36px;
+    color: $green;
+}
+.text_white{
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+}

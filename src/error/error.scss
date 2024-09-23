@@ -1,0 +1,29 @@
+.err{
+    background-image: url('./img/Image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    width: 100%;
+    height: 640px;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 30px;
+    
+    
+    h2{
+        font-size: 80px;
+        opacity: 0.5;
+        text-align: center;
+    }
+
+    h3{
+        opacity: 0.8;
+        text-align: center;
+    }
+
+
+}

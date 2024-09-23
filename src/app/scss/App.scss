@@ -1,0 +1,17 @@
+@import 'colors';
+@import 'fonts';
+@import 'button';
+
+
+.App{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1384px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+

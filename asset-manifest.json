@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/shop_organica/static/css/main.835ccc82.css",
+    "main.js": "/shop_organica/static/js/main.b5edcbfd.js",
+    "static/js/453.0f4552a2.chunk.js": "/shop_organica/static/js/453.0f4552a2.chunk.js",
+    "static/media/img.png": "/shop_organica/static/media/img.57952bc3f955c6f32a52.png",
+    "static/media/shop_bg.png": "/shop_organica/static/media/shop_bg.117acccfe419cdfd1ab3.png",
+    "static/media/Image.jpg": "/shop_organica/static/media/Image.d25871b3a220f93d7a7d.jpg",
+    "static/media/bg_1.png": "/shop_organica/static/media/bg_1.ee3636c52b33d933d2cc.png",
+    "static/media/Photo.jpg": "/shop_organica/static/media/Photo.d70a53f35c78011fb9ba.jpg",
+    "static/media/image2.png": "/shop_organica/static/media/image2.806b3213ec1595ba2c7e.png",
+    "static/media/img1.png": "/shop_organica/static/media/img1.0b873e33076a4e231da2.png",
+    "static/media/bg.png": "/shop_organica/static/media/bg.5f9c834e0a7bbd43f24b.png",
+    "static/media/bg_2.png": "/shop_organica/static/media/bg_2.b5fda2f95b5b1822173d.png",
+    "static/media/icon_1.svg": "/shop_organica/static/media/icon_1.9c4caf45d92a71cd3960a17e459a6899.svg",
+    "static/media/icon_2.svg": "/shop_organica/static/media/icon_2.5977393e57c2a60afae4b152a912ebac.svg",
+    "static/media/1.svg": "/shop_organica/static/media/1.d2d087d18b21d52ce3d77f03953255ce.svg",
+    "static/media/Logo.svg": "/shop_organica/static/media/Logo.9f421b0ba7c48a917aabf86138a8479e.svg",
+    "static/media/4.svg": "/shop_organica/static/media/4.24113e03b95afcd90becf0e84d8b51d7.svg",
+    "static/media/3.svg": "/shop_organica/static/media/3.f882cdd757c5d007053f5008eef5e1bc.svg",
+    "index.html": "/shop_organica/index.html",
+    "static/media/2.svg": "/shop_organica/static/media/2.993eaa620b7bed267d11e736bc100513.svg",
+    "static/media/vector.svg": "/shop_organica/static/media/vector.070ec26dbc6e9d3c9c6d1e4cc4c39f4b.svg",
+    "main.835ccc82.css.map": "/shop_organica/static/css/main.835ccc82.css.map",
+    "main.b5edcbfd.js.map": "/shop_organica/static/js/main.b5edcbfd.js.map",
+    "453.0f4552a2.chunk.js.map": "/shop_organica/static/js/453.0f4552a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.835ccc82.css",
+    "static/js/main.b5edcbfd.js"
+  ]
+}

@@ -1,0 +1,38 @@
+
+.main_container{
+    width: 1108px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    .window{
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .all_items-container{
+        width: 100%;
+        display: flex;
+        transition: 0.5s;
+    }
+
+    .arrow{
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .main_container{
+        width: 700px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 760px) {
+    .main_container{
+        width: 400px;
+        display: flex;
+        align-items: center;
+    }
+}

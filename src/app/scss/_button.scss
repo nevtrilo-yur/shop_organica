@@ -1,0 +1,37 @@
+.button{
+    width: 240px;
+    height: 80px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 28px 39px 29px 39px;
+    background-color: $blue;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    transition: 0.2s;
+    font-family: 'rOBOTO', sans-serif;
+    line-height: 23px; 
+    cursor: pointer;
+ 
+
+    img{
+        width: 19px;
+        height: 19px;
+    }
+    
+    &:hover{
+        background-color: $yellow;
+        color: $blue;
+        transition: 0.2s;
+    }
+    &:active{
+        background-color: #fff;
+        color: $blue;
+        border: solid $blue 1px;
+        transition: 0.1s;
+    }
+}

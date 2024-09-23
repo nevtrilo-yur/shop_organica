@@ -1,0 +1,82 @@
+@import '../../app/scss/colors.scss';
+
+@import '../ourProd/product.scss';
+
+@import '../ourProd/cardProd/cardprod.scss';
+
+.offer{
+    background-color: $blue;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    .item{
+        box-shadow: none;
+    }
+    h2{
+        color: #fff
+    }
+}
+
+.offer_info{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 55px;
+
+    .offer_info-name{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    Button{
+        background-color: $yellow;
+        color: $blue;
+        transition: 0.2s;
+        &:hover{
+            background-color: $light-grey;
+            color: $blue;
+            transition: 0.2s;
+        }
+        &:active{
+            background-color: #fff;
+            color: $blue;
+            border: solid $yellow 1px;
+            transition: 0.1s;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 1079px) {
+    .offer_info{
+        flex-direction: column;
+        align-items: center;
+        .offer_info-name{
+            align-items: center;
+            margin-bottom: 40px;
+
+            h2{
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .offer_info{
+        flex-direction: column;
+        align-items: center;
+        .offer_info-name{
+            align-items: center;
+            margin-bottom: 40px;
+
+            h2{
+                text-align: center;
+                font-size: 30px;
+            }
+        }
+    }
+}
+

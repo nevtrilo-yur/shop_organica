@@ -1,0 +1,151 @@
+@import '../app/scss/colors.scss';
+
+@mixin central{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    @include central;
+
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 203px;
+
+    .logo_nav{
+        @include central;
+        width: 100%;
+        justify-content: start;
+        gap: 200px;
+
+        .logo{
+            @include central;
+            gap: 5px;
+
+            .img{
+                width: 36px;
+                height: 54px;
+            }
+
+            .logo_name{
+                font-family: 'Roboto',sans-serif;
+                font-weight: 700;
+                color: #274C5B;
+                font-size: 38px;
+                line-height: 44px;
+                letter-spacing: -1px;
+            }
+        }
+
+        nav{
+            @include central;
+            gap: 43px;
+        }
+    }
+
+    .search_cart{
+        @include central;
+        gap: 20px;
+
+        .cart{
+            min-width: 215px;
+            height: 66px;
+            border-radius: 33px;
+            padding: 5px;
+            background-color: $light-grey;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        
+            h6{
+                min-width: 70%;
+                font-size: 18px;
+                font-weight: 600;
+                color:$blue;
+                
+            }
+        }
+
+
+        .search{
+            width: 377px;
+            height: 66px;
+            padding: 2px 5px;
+            background-color: $light-grey;
+            border-radius: 33px;
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+
+
+            .search_input{
+                border: none;
+                width: 80%;
+                border-radius: 33px;
+                height: 100%;
+                background-color: $light-grey;
+                padding-left: 30px;
+                font-family: "Roboto",sans-serif;
+                color: $blue;
+                font-weight: 600;
+                font-size: 18px;
+
+
+                
+                &:focus {
+                    outline: none
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .header{
+        // background-color: aqua;
+
+        .search_cart{
+             display: none
+    }
+
+        .logo_nav{
+            justify-content: space-between;
+        }
+        a{
+            font-size: 17px;
+        }
+
+
+
+
+
+    }
+    
+}
+
+
+@media screen and (max-width: 960px) {
+    .header{
+
+        .logo_nav{
+            .logo{
+                
+                .logo_name{
+                    font-weight: 700;
+                    font-size: 25px;
+                }
+            }
+
+                nav{
+                display: none;
+            }
+            }
+        }
+
+    
+}

@@ -1,0 +1,203 @@
+@import '../app/scss/colors';
+@import '../app/scss/fonts';
+
+.img-bg{
+    background-image: url('./img/bg.png');
+    background-position: center center;
+    height: 450px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.item_card{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    
+    .item_img{
+        height: 590px;
+        width: 45%;
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 40px;
+        object-position: center center;
+    }
+
+    .quantity{
+        margin-top: 20px;
+        margin-left: 10px;
+        font-family: "Roboto", sans-serif;
+        background-color: $blue;
+        text-align: center;
+        width: 90px;
+        padding: 15px 20px;
+        border-radius: 15px;
+        color: #fff;
+    }
+
+    .item_card-info{
+        
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+        
+
+        span{
+            color: $green;
+            font-weight: 600;
+            font-family: "Roboto", sans-serif;
+            font-size: 23px;
+            opacity: 0.5;
+        }
+        p{
+            font-size: 22px;
+
+           
+        }
+        .button_cont{
+            display: flex;
+            height: 150px;
+            align-items: center;
+            gap: 20px;
+
+            .button{
+                width: 50px;
+                height: 50px;
+                font-size: 30px;
+                padding: 10px;
+                user-select: none;
+                
+                &:active{
+                    border:none
+                }
+            }
+
+
+
+            p{
+                width: 50px;
+                height: 50px;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+
+
+.item_tab-desc{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 40px;
+
+    .button{
+        width: 500px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        
+        &:active{
+            border: none;
+        }
+
+        .handle{
+            background-color: $yellow;
+        }
+    }
+}
+
+
+.item_tab-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+    .item_card{
+        flex-direction: column;
+        align-items: center;
+        
+        
+        .item_img{
+            width: 80%;
+            height: 500px;
+        }
+        
+        .item_card-info{
+
+            .button_cont{
+                display: flex;
+                height: 80px;
+                align-items: center;
+                gap: 20px;
+        }
+        }
+    }
+
+    
+    .item_tab-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 40px;
+    
+        .button{
+            width: 80%;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+            &:active{
+                border: none;
+            }
+    
+            .handle{
+                background-color: $yellow;
+            }
+        }
+    }
+    
+    
+    .item_tab-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    
+
+}
+
+@media screen and (max-width: 450px) {
+    .item_card{
+        
+        .item_img{
+            width: 80%;
+            height: 350px;
+        }
+    }
+}

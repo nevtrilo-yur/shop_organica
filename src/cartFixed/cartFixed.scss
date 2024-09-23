@@ -1,0 +1,26 @@
+@import '../app/scss/colors';
+@import '../app/scss/fonts';
+
+
+
+.cart_fixed{
+    margin-right: 50px;
+    float: right;
+    position: sticky;
+    bottom: 70px;
+
+    .count{
+        min-width: 80px;
+        font-family: "Roboto", sans-serif;
+        gap: 5px;
+        padding: 20px 20px;
+        background-color: $green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        color:#fff;
+        
+       
+    }
+}
